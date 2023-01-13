@@ -1,0 +1,145 @@
+.gpt3__navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+    padding: 2rem 6rem;
+
+}
+
+.gpt3__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+}
+
+.gpt3__navbar-links-logo{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+
+}
+
+.gpt3__navbar-links-logo > img{
+    width: 62.56px ;
+    height: 15.82px;
+}
+a{
+    text-decoration: none;
+}
+.gtp3__navbar_links-container {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+
+.gtp3__navbar_links-container p , a, 
+.gpt3__navbar-sign ,
+.gpt3__navbar-menu_container p {
+    text-decoration: none;
+    color: #ffff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+
+}
+
+/* .gpt3__navbar-sign button,
+.gtp3__navbar_links-container button , */
+.gpt3__navbar-sign-button
+{
+
+    padding: 0.4rem  1.8rem;
+    color: white;
+    background-color: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500 ;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+.gpt3__navbar-sign{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.gpt3__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.gpt3__navbar-menu_container{
+    display: flex;
+    gap: 21px    ;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    background: var(--color-footer);
+    padding: 1rem;
+    position: absolute;
+    top: 40px ;
+    right: 0px;
+    margin-top: 1rem;
+    border-radius: 10px;
+
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+    /* min-width: 210px; */
+    width: 300px;
+}
+.gpt3__navbar-menu_container p{
+    margin: 1rem  0;
+}
+.gpt3__navbar-menu_container-links-sign{
+    display: none;
+
+}
+@media screen and (max-width: 1050px) {
+    .gtp3__navbar_links-container{
+        display: none;
+    }
+    .gpt3__navbar-menu{
+        display: flex;
+    }
+    .gpt3__navbar-sign{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width :  700px){
+    .gpt3__navbar{
+        padding: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width : 550px){
+    .gpt3__navbar-sign{
+        display: none;
+    }
+
+    .gpt3__navbar-menu_container-links-sign{
+        display: block;
+
+    }
+
+}

@@ -1,0 +1,8 @@
+export {default as Blog} from "./blog/Blog"
+export {default as Feature} from "./feature/Feature"
+export {default as Footer} from "./Footer/Footer"
+export {default as Header} from "./header/Header"
+export {default as WhatGpt} from "./whatGpt/WhatGpt.jsx"
+export {default as Possibility} from "./possibility/Possibility"
+export {default as Cta} from "./Cta/Cta.jsx"
+export {default as Blogging} from "./Blogging/Blogging.jsx"

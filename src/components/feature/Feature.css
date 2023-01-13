@@ -1,0 +1,34 @@
+.gtp3__feature-component{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gtp3__feature-component h1{
+    display: flex;
+    color: #ffff;
+    flex-direction: column;
+    font-size: 25px;
+    line-height: 35px;
+}
+.gtp3__feature-component p {
+    display: flex;
+    color: var(--color-text);
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 18px;
+    flex: 1;
+}
+.gtp3__feature-component div{
+    height: 5px;
+    width: 60px;
+    margin: 0px;
+    padding: 0px;
+    background:var(--gradient-bar);    
+}
+@media screen and (max-width:550px){
+    .gtp3__feature-component{
+        flex-direction: column;
+    }
+
+
+}
